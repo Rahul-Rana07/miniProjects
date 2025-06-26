@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 700px;
+  width: 500px;
+  margin-top: 100px;
+  padding: 20px 18px;
+  border-radius: 10px;
+}
+
+
+.btn{
+width: 460px;
+border-radius: 10px;
+}
+
+p{
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.inputField{
+  width: 100%;
+  max-width: 480px;
+  height: 60px;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+}
+
+.inputField::placeholder {
+  font-size: 1.1rem;     
+  line-height: 7rem;  
+  color: #6b7280;       
+}
+span{
+  font-weight: bold;
+color: skyblue;
+}
